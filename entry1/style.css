@@ -1,8 +1,40 @@
-style{
-    color: blue;
+<style>
+
+.metadata {
+    padding-bottom: 40px;
+    padding-top: 10px;
 }
 
-h1{
-    font-size: 24px;
-    color: blue;
-}
+style{
+    
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+    
+
+    @media only screen and (min-width: 375px) {
+
+        .heading{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 60px;
+
+    padding: 30px;
+    line-height: 100%;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    text-align: left;
+    background-color: rgb(218, 233, 195);
+        }
+
+        .info{
+            font-family: Barlow, serif;
+            font-size: 16px;
+            line-height: 150%;
+            background-color: rgb(218, 233, 195);
+            padding: 30px;
+        }
+
+    }
+
+

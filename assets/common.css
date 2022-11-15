@@ -22,14 +22,13 @@
     {
         
     font-family: 'Libre Baskerville', serif;
-    font-size: 200px;
+    font-size: 94px;
     font-weight: 400;
     line-height: 84px;
     letter-spacing: 0em;
     text-align: left;
     color: white;
     width: max-content;
-    
     -webkit-text-stroke: 1px rgb(0, 0, 0);
     border: 0.5px inset rgb(0, 0, 0);
 
