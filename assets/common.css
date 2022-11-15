@@ -1,3 +1,249 @@
-body{
-    color: red;
+
+<style>
+
+.metadata {
+    padding-bottom: 40px;
+    padding-top: 10px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+
+
+
+
+
+
+@media only screen and (min-width: 1280px) {
+
+    .landing
+    {
+        
+    font-family: 'Libre Baskerville', serif;
+    font-size: 200px;
+    font-weight: 400;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: max-content;
+    
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    border: 0.5px inset rgb(0, 0, 0);
+
+    
+
+    }
+
+        h1:hover{
+        background-color: rgb(192, 214, 21);
+        color: rgb(23, 23, 23);
+        }
+
+        h2:hover{
+        background-color: rgb(171, 213, 178);
+        color: rgb(23, 23, 23);
+        }
+        
+        h3:hover{
+        background-color: rgb(189, 200, 218);
+        color: rgb(23, 23, 23);
+        }
+        h4:hover{
+        background-color: rgb(232, 201, 195);
+        color: rgb(23, 23, 23);
+        }
+
+        .scroll2{
+        font-family: 'Barlow', sans-serif;
+        font-size: 18px;
+        font-weight: 200;
+        letter-spacing: 0em;
+        color: rgb(31, 31, 31);
+        text-align: center;
+    }
+
+    .cards {display: grid;
+        grid-template-columns: 50% 50% ;
+        grid-row: auto;
+        column-gap: 0px;
+        row-gap: 0px;
+        
+    
+    }
+                .author{
+
+                    font-family: 'Libre Baskerville', serif;
+                    border: 1px solid rgba(34, 34, 34, 0.8);
+                    padding: 60px;
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+                    font-size: 50px;
+                    text-align: center;
+                }
+
+                .preface{
+                    font-family: 'Barlow', sans-serif;
+                    border: 1px solid rgba(34, 34, 34, 0.8);
+                    padding: 60px;
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+                    font-size: 20px;
+
+                }
+                
+
+                    #readmore{
+                        color: blue;                      
+                    }
+
+                    .about{
+                    font-family: 'Libre Baskerville', serif;
+                    font-size: 64px;
+                    font-weight: 400;
+                    line-height: 100%;
+                    letter-spacing: 0em;
+                    margin-left: 100px;
+                    text-align: left;
+                     color: white;
+                     -webkit-text-stroke: 1px rgb(0, 0, 0);
+                     width: min-content;
+                    
+
+                    }
+
+                    .about2{
+                    font-family: 'Barlow', sans-serif;
+                    font-size: 20px;
+                    font-weight: 200;
+                    line-height: 160%;
+                    letter-spacing: 0em;
+                    margin-right: 40px;
+                    }
+
+                    span{
+                    font-weight: bolder;
+                    font-style: italic;
+                      }
+
+                    }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 375px) {
+
+                
+            .landing {
+            width: fit-content;
+            font-family: 'Libre Baskerville', serif;
+            font-size: 48px;
+            font-weight: 200;
+            line-height: 64px;
+            text-align: left;
+            color: white;
+            -webkit-text-stroke: 0.7px rgb(0, 0, 0);
+            border: 0.3px;
+            border-style: solid;
+            border-color: black;
+            border-spacing: 5px;
+
+}
+        h1:hover{
+        background-color: rgb(192, 214, 21);
+        color: rgb(23, 23, 23);
+        }
+
+        h2:hover{
+        background-color: rgb(171, 213, 178);
+        color: rgb(23, 23, 23);
+        }
+        
+        h3:hover{
+        background-color: rgb(189, 200, 218);
+        color: rgb(23, 23, 23);
+        }
+        h4:hover{
+        background-color: rgb(232, 201, 195);
+        color: rgb(23, 23, 23);
+        }
+
+
+
+        .scroll2{
+            font-family: 'Barlow', sans-serif;
+            font-size: 16px;
+            font-weight: 200;
+            letter-spacing: 0em;
+            color: rgb(31, 31, 31);
+            text-align: center;
+            position: relative;
+        }
+        .cards {
+            margin: 0 auto;
+            display: grid;
+            gap: 1rem;
+            }
+                      
+            .author{
+
+                font-family: 'Libre Baskerville', serif;
+                border: 1px solid rgba(34, 34, 34, 0.8);
+                padding: 46px;
+                font-weight: 100;
+                font-size: 40px;
+                text-align: center;
+            }
+
+            .preface{
+                font-family: 'Barlow', sans-serif;
+                font-weight: 200;
+                border: 1px solid rgba(34, 34, 34, 0.8);
+                padding: 60px;
+                padding-top: 60px;
+                padding-bottom: 60px;
+                font-size: 16px;
+
+            }
+
+                    .about{
+                    font-family: 'Libre Baskerville', serif;
+                    font-size: 50px;
+                    font-weight: 400;
+                    line-height: 100%;
+                    letter-spacing: 0em;
+                    margin-left: 20px;
+                    text-align: left;
+                    color: white;
+                     -webkit-text-stroke: 1px rgb(0, 0, 0);
+                     width: min-content;
+                     
+                    
+
+                    }
+
+                    .about2{
+                    font-family: 'Barlow', sans-serif;
+                    font-size: 18px;
+                    font-weight: 200;
+                    line-height: 160%;
+                    letter-spacing: 0em;
+                    margin-left: 20px;
+                    }
+
+                    span{
+                    font-weight: bolder;
+                      }
+
+                    }
+
+
+                    </style>
