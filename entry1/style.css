@@ -11,7 +11,7 @@ style{
 
 
     @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
-    
+
 
     @media only screen and (min-width: 375px) {
 
@@ -27,13 +27,27 @@ style{
     background-color: rgb(218, 233, 195);
         }
 
-        .info{
-            font-family: Barlow, serif;
-            font-size: 16px;
-            line-height: 150%;
-            background-color: rgb(218, 233, 195);
-            padding: 30px;
-        }
+			.info{
+				font-family: Barlow, serif;
+				font-size: 16px;
+				line-height: 150%;
+				background-color: rgb(218, 233, 195);
+				padding: 30px;
+			}
+
+			.subheads{
+				font-family: 'Libre Baskerville', serif;
+				font-size: 30px;
+				font-weight: 100;
+				padding: 30px;
+				padding-top: 40px;
+				background-color: rgb(218, 233, 195); 
+			-webkit-text-stroke: 0.7px rgb(0, 0, 0);
+            border: 0.3px;
+            border-style: solid;
+            border-color: black;
+
+		}
 
     }
 
