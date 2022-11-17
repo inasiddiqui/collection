@@ -1,10 +1,5 @@
 
-<style>
 
-.metadata {
-    padding-bottom: 40px;
-    padding-top: 10px;
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
@@ -12,44 +7,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
 
 
+.metadata {
+    padding-bottom: 40px;
+    margin: 40px;
+}
 
 
-
-
-@media only screen and (min-width: 1280px) {
 
     .landing {
-        width: fit-content;
+
         font-family: 'Libre Baskerville', serif;
-        font-size: 68px;
+        font-size: 84px;
         font-weight: 200;
-        line-height: 64px;
+        line-height: 88px;
         text-align: left;
         color: white;
         -webkit-text-stroke: 0.7px rgb(0, 0, 0);
         border: 0.3px;
         border-style: solid;
-        border-color: black;
+        border-color: rgb(34, 34, 34);
         border-spacing: 5px;
+        width: 100%;
+        
 
 }
 
         h1:hover{
         background-color: rgb(192, 214, 21);
         color: rgb(23, 23, 23);
-        width: fit-content;
-        font-family: 'Libre Baskerville', serif;
-        font-size: 68px;
-        font-weight: 200;
-        line-height: 64px;
-        text-align: left;
-        color: white;
-        -webkit-text-stroke: 0.7px rgb(0, 0, 0);
-        border: 0.3px;
-        border-style: solid;
-        border-color: black;
-        border-spacing: 5px;
-        
         }
 
         h2:hover{
@@ -76,6 +61,7 @@
     }
 
     .cards {
+        width: 100%;
         display: grid;
         grid-template-columns: 50% 50% ;
         grid-row: auto;
@@ -88,7 +74,6 @@
 
                     font-family: 'Libre Baskerville', serif;
                     border: 1px solid rgba(34, 34, 34, 0.8);
-                    padding: 60px;
                     padding-top: 60px;
                     padding-bottom: 60px;
                     font-size: 50px;
@@ -97,6 +82,7 @@
 
                 .preface{
                     font-family: 'Barlow', sans-serif;
+                    font-weight: 100;
                     border: 1px solid rgba(34, 34, 34, 0.8);
                     padding: 60px;
                     padding-top: 60px;
@@ -139,33 +125,29 @@
                     font-style: italic;
                       }
 
-                    }
 
 
 
 
 
 
-
-
-
-
-@media only screen and (min-width: 375px) {
+                      @media only screen and (max-width: 375px) {
 
                 
             .landing {
             width: fit-content;
-            font-family: 'Libre Baskerville', serif;
-            font-size: 48px;
+            font-family: 'Libre Baskerville', sans-serif;
+            font-size: 50px;
             font-weight: 200;
             line-height: 64px;
             text-align: left;
             color: white;
-            -webkit-text-stroke: 0.7px rgb(0, 0, 0);
-            border: 0.3px;
+            -webkit-text-stroke: 0.8px rgb(0, 0, 0);
+            border: 0.1px;
             border-style: solid;
-            border-color: black;
-            border-spacing: 5px;
+            border-color: rgb(35, 35, 35);
+            width: 100%;
+
 
 }
         h1:hover{
@@ -196,12 +178,17 @@
             letter-spacing: 0em;
             color: rgb(31, 31, 31);
             text-align: center;
-            position: relative;
+            
+            
         }
         .cards {
-            margin: 0 auto;
             display: grid;
-            gap: 1rem;
+            grid-template-columns: 100%;
+            grid-row: auto;
+            column-gap: 0px;
+            row-gap: 0px;
+            width: 100%;
+            
             }
                       
             .author{
@@ -256,5 +243,4 @@
 
                     }
 
-
-                    </style>
+                
