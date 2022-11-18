@@ -1,0 +1,102 @@
+
+
+.metadata {
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+    body{
+        background-color: rgb(218, 233, 195);
+    }
+
+    
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap');
+
+
+    @media only screen and (min-width: 375px) {
+
+        
+
+        .heading{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 60px;
+
+    padding: 30px;
+    line-height: 100%;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    text-align: left;
+    background-color: rgb(218, 233, 195);
+        }
+
+			.info{
+				font-family: Barlow, serif;
+				font-size: 16px;
+				line-height: 150%;
+				background-color: rgb(218, 233, 195);
+				padding: 30px;
+			}
+
+			.subheads{
+			font-family: 'Libre Baskerville', serif;
+			font-size: 36px;
+			font-weight: 200;
+			padding: 20px;
+			padding-top: 20px;
+			background-color: rgb(218, 233, 195); 
+            color:  rgb(218, 233, 195); 
+			-webkit-text-stroke: 0.5px rgb(0, 0, 0);
+            border: 0.3px;
+            border-style: solid;
+            border-color: rgb(34, 34, 34);
+            border-spacing: 0px;
+            width: 100%;
+		}
+
+            
+
+              
+              .active, .subheads:hover {
+                color: rgb(23, 23, 23);
+                background-color:  rgb(189, 208, 161);
+              }
+              
+
+
+
+        .paragraph{
+            font-family: Barlow, serif;
+            font-size: 16px;
+            font-weight: 100;
+            line-height: 160%;
+            padding-left: 30px;
+            padding-right: 20px;
+            display: none;
+            overflow: hidden;
+            padding-top: 10px;
+        }
+
+        .squarehome{
+
+                background-color: rgb(23, 23, 23);
+                border: none;
+                padding: 15px 20px;
+                display: inline-block;
+                margin: 10px 20px;
+                cursor: pointer;
+                margin-top: 20px;
+              }
+
+              .squarehome: :nth-child(1){
+                background-color: pink;
+   
+              }
+
+
+
+        }
+    
+
+
