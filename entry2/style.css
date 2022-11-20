@@ -5,7 +5,7 @@
     padding-top: 10px;
 }
     body{
-        background-color: rgb(218, 233, 195);
+        background-color: rgb(195, 213, 233);
     }
 
     
@@ -26,16 +26,27 @@
     padding: 30px;
     line-height: 100%;
     padding-top: 100px;
-    padding-bottom: 60px;
+    
     text-align: left;
-    background-color: rgb(218, 233, 195);
+    
         }
+
+        .sub{
+            font-family: 'Libre Baskerville', serif;
+            font-size: 30px;
+            font-style: italic;
+            padding-left: 30px;
+            line-height: 100%;
+            text-align: left;
+            padding-bottom: 60px;
+            
+                }
 
 			.info{
 				font-family: Barlow, serif;
 				font-size: 16px;
 				line-height: 150%;
-				background-color: rgb(218, 233, 195);
+				
 				padding: 30px;
 			}
 
@@ -45,8 +56,8 @@
 			font-weight: 200;
 			padding: 20px;
 			padding-top: 20px;
-			background-color: rgb(218, 233, 195); 
-            color:  rgb(218, 233, 195); 
+			background-color: rgb(195, 213, 233);
+            color:  rgb(195, 213, 233);
 			-webkit-text-stroke: 0.5px rgb(0, 0, 0);
             border: 0.3px;
             border-style: solid;
@@ -60,7 +71,7 @@
               
               .active, .subheads:hover {
                 color: rgb(23, 23, 23);
-                background-color:  rgb(189, 208, 161);
+                background-color:  rgb(146, 166, 190);
               }
               
 
