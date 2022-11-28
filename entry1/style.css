@@ -17,11 +17,37 @@
 
     @media only screen and (min-width: 375px) {
 
+
+      ul {
+        list-style-type:none;
+        margin-left: 30px;
+        padding: 0;
+        margin-top: 20px;
+        
+      }
+      
+      li {
+        display: block;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 20px;
+        font-weight: 200;
+        padding: 10px;
+        color:  rgb(218, 233, 195);
+        -webkit-text-stroke: 0.6px rgb(0, 0, 0);
+        border: 0.1px;
+        border-style: solid;
+        border-color: rgb(86, 86, 86);
+        width: max-content;
+    
+        
+        
+      }
+
         
 
         .heading{
     font-family: 'Libre Baskerville', serif;
-    font-size: 60px;
+    font-size: 50px;
 
     padding: 30px;
     line-height: 100%;
@@ -84,7 +110,7 @@
         .dot {
           height: 16px;
           width: 16px;
-          background-color: rgb(186, 186, 208); 
+          background-color: rgb(189, 208, 161); 
           border-radius: 0;
           border: 0.4px;
           border-style: solid;
