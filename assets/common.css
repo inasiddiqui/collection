@@ -33,40 +33,56 @@
 }
 
         h1:hover{
-        background-color: rgb(192, 214, 21);
-        color: rgb(23, 23, 23);
+        background-color: rgb(255, 255, 255);
+        color: #D9FF96;;
         }
 
         h2:hover{
-        background-color: rgb(187, 207, 178);
+        background-color: #D9FF96;
         color: rgb(23, 23, 23);
         }
         
         h3:hover{
-        background-color: rgb(189, 200, 218);
+        background-color: #D9FF96;
         color: rgb(23, 23, 23);
         }
         h4:hover{
-        background-color: rgb(190, 182, 204);
+        background-color: #D9FF96;
         color: rgb(23, 23, 23);
         }
+        .scrollborder{
+        border: 0.2px solid rgb(255, 255, 255);
+        outline-offset: 1px;
+        border-spacing: 1px;
+    }
+    
 
-        .scroll2{
+        .scroll{
         font-family: 'Barlow', sans-serif;
-        font-size: 18px;
+        font-size: 28px;
         font-weight: 200;
         letter-spacing: 0em;
-        color: rgb(31, 31, 31);
+        color: rgb(255, 255, 255);
         text-align: center;
+        margin-top: 300px;
+        margin-bottom: 300px;
+        margin-left: 500px;
+        margin-right: 500px;
+        background-color: black;
+
+        
+        
     }
+
+
 
     .cards {
         width: 100%;
         display: grid;
         grid-template-columns: 50% 50% ;
         grid-row: auto;
-        column-gap: 0px;
-        row-gap: 0px;
+        column-gap: 15px;
+        row-gap: 15px;
         
     
     }
@@ -78,6 +94,7 @@
                     padding-bottom: 60px;
                     font-size: 50px;
                     text-align: center;
+                    
                 }
 
                 .preface{
@@ -88,6 +105,7 @@
                     padding-top: 60px;
                     padding-bottom: 60px;
                     font-size: 20px;
+                    
 
                 }
                 
@@ -98,25 +116,26 @@
 
                     .about{
                     font-family: 'Libre Baskerville', serif;
-                    font-size: 64px;
+                    font-size: 60px;
                     font-weight: 400;
                     line-height: 100%;
                     letter-spacing: 0em;
-                    margin-left: 100px;
-                    text-align: left;
+                    padding-top: 200px;
+                    padding-bottom: 60px;
+                    text-align: center;
                      color: white;
                      -webkit-text-stroke: 1px rgb(0, 0, 0);
-                     width: min-content;
+                     
                     
 
                     }
 
                     .about2{
                     font-family: 'Barlow', sans-serif;
-                    font-size: 20px;
+                    font-size: 16px;
                     font-weight: 200;
-                    line-height: 160%;
-                    letter-spacing: 0em;
+                    line-height: 400%;
+                    background-color: #D9FF96;
                     margin-right: 40px;
                     }
 
@@ -151,7 +170,7 @@
 
 }
         h1:hover{
-        background-color: rgb(192, 214, 21);
+        background-color: rgb(255, 255, 255);
         color: rgb(23, 23, 23);
         }
 
@@ -171,13 +190,25 @@
 
 
 
-        .scroll2{
+        .scrollborder{
+            border: 0.2px solid rgb(3, 3, 3);
+            outline-offset: 1px;
+            border-spacing: 1px;
+        }
+        
+    
+            .scroll{
             font-family: 'Barlow', sans-serif;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 200;
             letter-spacing: 0em;
             color: rgb(31, 31, 31);
             text-align: center;
+            margin-top: 250px;
+            margin-bottom: 250px;
+            margin-left: 90px;
+            margin-right: 90px;
+    
             
             
         }
@@ -214,7 +245,7 @@
 
                     .about{
                     font-family: 'Libre Baskerville', serif;
-                    font-size: 50px;
+                    font-size: 40px;
                     font-weight: 400;
                     line-height: 100%;
                     letter-spacing: 0em;
@@ -244,3 +275,108 @@
                     }
 
                 
+
+
+
+                    @media print {
+
+ 
+                        
+                        
+                            .landing {
+                        
+                                font-family: 'Libre Baskerville', serif;
+                                font-size: 74px;
+                                font-weight: 200;
+                                line-height: 78px;
+                                text-align: left;
+                                color: rgb(0, 0, 0);
+                                
+                                border: 0.3px;
+                                border-style: solid;
+                                border-color: rgb(34, 34, 34);
+                                border-spacing: 3px;
+                                width: fit-content;
+            
+                                
+                        
+                        }
+
+                        .scrollborder{
+                            border: 0.1px solid rgb(55, 55, 55);
+                            padding: 5px;
+                            
+                        }
+                        
+                    
+                            .scroll{
+                            font-family: 'Barlow', sans-serif;
+                            font-size: 16px;
+                            font-weight: 200;
+                            letter-spacing: 0em;
+                            color: rgb(31, 31, 31);
+                            margin-top: 250px;
+                            text-align: left;
+                            margin-left: 20px;
+                            width: fit-content;
+                            }
+
+                        .cards {
+                            
+                            display: grid;
+                            grid-template-columns: 50% 50% ;
+                            grid-row: auto;
+                            column-gap: 20px;
+                            row-gap: 20px;
+                            width: fit-content;
+                            
+                        
+                        }
+                                    .author{
+                    
+                                        font-family: 'Libre Baskerville', serif;
+                                        border: 1px solid rgba(34, 34, 34, 0.8);
+                                        padding-top: 70px;
+                                        padding-bottom: 70px;
+                                        font-size: 32px;
+                                        text-align: center;
+                                    }
+                    
+                                    .preface{
+                                        font-family: 'Barlow', sans-serif;
+                                        font-weight: 100;
+                                        border: 1px solid rgba(34, 34, 34, 0.8);
+                                        padding-top: 70px;
+                                        padding-bottom: 38px;
+                                        font-size: 14px;
+                    
+                                    }
+                                    .about{
+                                        font-family: 'Libre Baskerville', serif;
+                                        font-size: 40px;
+                                        font-weight: 400;
+                                        line-height: 100%;
+                                        letter-spacing: 0em;
+                                        line-height: 110%;
+                                        text-align: center;
+                                        color: rgb(0, 0, 0);
+                                         
+                                         width: min-content;
+                                         margin-left: 280px;
+                                         
+                                        
+                    
+                                        }
+                    
+                                        .about2{
+                                        font-family: 'Barlow', sans-serif;
+                                        font-size: 10px;
+                                        font-weight: 200;
+                                        line-height: 180%;
+                                        letter-spacing: 0em;
+                                        margin-left: 20px;
+                                        }
+
+
+
+                    }
