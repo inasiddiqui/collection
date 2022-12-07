@@ -2,7 +2,7 @@
 
 
     body{
-        background-color: rgb(195, 220, 233);
+        background-color: #62ae57;
     }
 
     
@@ -30,7 +30,7 @@
         font-size: 20px;
         font-weight: 200;
         padding: 10px;
-        color:  rgb(195, 220, 233);
+        color:  #62ae57;
         -webkit-text-stroke: 0.6px rgb(0, 0, 0);
         border: 0.1px;
         border-style: solid;
@@ -56,7 +56,7 @@
     padding-top: 100px;
     padding-bottom: 60px;
     text-align: left;
-    background-color: rgb(195, 220, 233);
+    background-color: #62ae57;
         }
         .sub{
             font-family: 'Libre Baskerville', serif;
@@ -67,14 +67,20 @@
             padding-top: 100px;
             padding-bottom: 60px;
             text-align: left;
-            background-color: rgb(195, 220, 233);
+            background-color:#62ae57;
                 }
 			.info{
 				font-family: Barlow, serif;
 				font-size: 16px;
 				line-height: 150%;
-				background-color: rgb(195, 220, 233);
-				padding: 30px;
+				background-color: #62ae57;
+			}
+
+      .info2{
+				font-family: Barlow, serif;
+				font-size: 16px;
+				line-height: 150%;
+				background-color: #62ae57;
 			}
 
 			.subheads{
@@ -83,8 +89,8 @@
 			font-weight: 200;
 			padding: 20px;
 			padding-top: 20px;
-			background-color: rgb(195, 220, 233); 
-            color:  rgb(195, 220, 233); 
+			background-color: #62ae57;
+            color:  #62ae57;
 			-webkit-text-stroke: 0.5px rgb(0, 0, 0);
             border: 0.3px;
             border-style: solid;
@@ -99,7 +105,7 @@
               
               .active, .subheads:hover {
                 color: rgb(23, 23, 23);
-                background-color:  rgb(195, 220, 233); 
+                background-color:  #62ae57;
               }
               
 
@@ -120,7 +126,7 @@
         .dot {
           height: 15px;
           width: 15px;
-          background-color: rgb(195, 220, 233);  
+          background-color: #62ae57;
           border-radius: 0;
           border: 0.4px;
           border-style: solid;
@@ -156,7 +162,7 @@
                 font-size: 22px;
                 font-weight: 200;
                 padding: 10px;
-                color:  rgb(195, 220, 233); 
+                color:  #62ae57;
                 -webkit-text-stroke: 0.5px rgb(0, 0, 0);
                 border: 0.2px;
                 border-style: solid;
@@ -176,7 +182,7 @@
             padding-left: 200px;
             padding-top: 100px;
             text-align: left;
-            background-color: rgb(195, 220, 233);
+            background-color: #62ae57;
                 }
 
                 .sub{
@@ -186,7 +192,7 @@
                     padding-left: 200px;
                     line-height: 100%;
                     text-align: left;
-                    background-color: rgb(195, 220, 233);
+                    background-color: #62ae57;
                         }
         
                     .info{
@@ -194,12 +200,24 @@
                         font-weight: 100;
                         font-size: 20px;
                         line-height: 150%;
-                        background-color: rgb(195, 220, 233);
+                        background-color: #62ae57;
                         padding: 30px;
                         margin-left: 170px;
                         width: 70%;
 
                     }
+
+                    .info2{
+                      font-family: Barlow, serif;
+                      font-weight: 100;
+                      font-size: 20px;
+                      line-height: 150%;
+                      background-color: #62ae57;
+                      padding: 30px;
+                      margin-left: 170px;
+                      width: 70%;
+
+                  }
         
                     .subheads{
                     font-family: 'Libre Baskerville', serif;
@@ -207,8 +225,8 @@
                     font-weight: 200;
                     padding: 25px;
                     margin-left: 200px;
-                    background-color: rgb(195, 220, 233); 
-                    color:  rgb(195, 220, 233); 
+                    background-color: #62ae57;
+                    color:  #62ae57;
                     -webkit-text-stroke: 0.9px rgb(0, 0, 0);
                     border: 0.3px;
                     border-style: solid;
@@ -221,7 +239,7 @@
                       
                       .active, .subheads:hover {
                         color: rgb(23, 23, 23);
-                        background-color:  rgb(195, 220, 233); 
+                        background-color:  #62ae57;
                       }
                       
     
@@ -246,7 +264,7 @@
                 .dot {
                   height: 25px;
                   width: 25px;
-                  background-color: rgb(195, 220, 233);  
+                  background-color: #62ae57;
                   border-radius: 0;
                   border: 0.4px;
                   border-style: solid;
@@ -268,3 +286,144 @@
 
 
                     }
+                  }
+
+
+
+
+
+
+
+
+
+
+
+
+                    @media print {
+
+
+          
+
+
+ 
+
+
+                      ul {
+                        list-style-type: none;
+                        margin-left: 200px;
+                        padding: 0;
+                        margin-top: 20px;
+                      }
+                      
+                      li {
+                        display: none;
+                        font-family: 'Libre Baskerville', serif;
+                        font-size: 22px;
+                        font-weight: 200;
+                        padding: 10px;
+                       background-color: #62ae57;
+
+                        border: 0.2px;
+                        border-style: solid;
+                        border-color: rgb(34, 34, 34);
+                        
+                      }
+
+
+                      .sub{
+                        font-family: 'Libre Baskerville', serif;
+                        font-size: 36px;
+                        font-style: italic;
+                        margin-left: 100px;
+                        line-height: 100%;
+                        text-align: left;
+                        
+                            }
+        
+        
+                .heading{
+                    font-family: 'Libre Baskerville', serif;
+                    font-size: 80px;
+                    margin-left: 100px;
+                    line-height: 100%;
+                    padding-top: 100px;
+                    padding-bottom: 60px;
+                    text-align: left;
+                    background-color: #62ae57;
+                        }
+                
+                            .info{
+                                font-family: Barlow, serif;
+                                font-weight: 100;
+                                font-size: 20px;
+                                line-height: 150%;
+                                background-color: #62ae57;
+                                padding-top: 30px;
+                                padding-bottom: 200px;
+                                margin-left: 100px;
+                                width: 70%;
+        
+                            }
+                            .info2{
+                              font-family: Barlow, serif;
+                              font-weight: 100;
+                              font-size: 12px;
+                              line-height: 180%;
+                              background-color: #62ae57;
+                              padding-top: 120px;
+                              
+                              margin-left: 100px;
+                              width: 70%;
+      
+                          }
+                
+                            .subheads{
+                            font-family: 'Libre Baskerville', serif;
+                            font-size: 26px;
+                            font-weight: 200;
+                            padding-top: 20px;
+                            padding-bottom: 10px;
+                            margin-left: 100px;
+                           color:  rgb(0, 0, 0); 
+                           page-break-after: 10px;
+                           
+ 
+
+                            
+                        }
+                              
+            
+                        .paragraph{
+                            font-family: Barlow, serif;
+                            font-size: 12px;
+                            font-weight: 100;
+                            line-height: 180%;
+                            margin-left: 100px;
+                            padding-top: 10px;
+                            width: 70%;
+                           
+                            
+                        }
+
+
+                
+                        span{
+                         display: none;
+                          
+                        }
+        
+                        .dot {
+                          height: 25px;
+                          width: 25px;
+                          background-color: #62ae57;
+                          border-radius: 0;
+                          border: 0.4px;
+                          border-style: solid;
+                          border-color: rgb(34, 34, 34);
+                          display: inline-block;
+
+                    }
+
+                    
+                    }
+                  

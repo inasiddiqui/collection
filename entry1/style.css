@@ -106,6 +106,15 @@
             
                     
         }
+        span{
+          font-size: 18px; 
+          line-height: 150%;
+          border: 0.3px;
+          border-style: solid;
+          border-color: rgb(34, 34, 34);
+          border-spacing: 5px;
+          
+        }
 
         .dot {
           height: 16px;
@@ -334,9 +343,6 @@
 
                             
                         }
-        
-                              
-
                               
             
                         .paragraph{
@@ -347,21 +353,14 @@
                             margin-left: 100px;
                             padding-top: 10px;
                             width: 70%;
-                           page-break-inside: avoid;
-
-
-
-                            
+                           
                             
                         }
+
+
                 
                         span{
-                          font-size: 32px; 
-                          line-height: 150%;
-                          border: 0.3px;
-                          border-style: solid;
-                          border-color: rgb(34, 34, 34);
-                          border-spacing: 5px;
+                         display: none;
                           
                         }
         
@@ -375,11 +374,9 @@
                           border-color: rgb(34, 34, 34);
                           display: inline-block;
 
-
-
-
-
                     }
+
+                    
                   }
                     
                   
